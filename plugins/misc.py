@@ -9,7 +9,7 @@ async def start(bot, message):
     await message.reply(text=script.START.format(message.from_user.mention),
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'https://t.me/XPmovierequestgroup')
-            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/XPmovierequestgroup"),
+            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="http://t.me/XP_PrajwalPatil"),
 
 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'https://t.me/xpbackupchannel01')]]))  
 @Client.on_message(filters.command("help"))
