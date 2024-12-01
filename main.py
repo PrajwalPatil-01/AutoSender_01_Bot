@@ -1,4 +1,4 @@
 from client import Bot
 
-print("Bot Started. @Super4crazy")
+print("Bot Started. @xp_prajwal")
 Bot().run()
